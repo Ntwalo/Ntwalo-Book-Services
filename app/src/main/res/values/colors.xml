@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Bluelight1">#d8f9ff</color>
+    <color name="Bluelight2">#d8b1f2ff</color>
+    <color name="Bluelight3">#8aecff</color>
+    <color name="Bluelight4">#63e5ff</color>
+    <color name="Bluelight5">#3cdfff</color>
+    <color name="semi_transparent_bluish">#659191E3</color>
+
+
+</resources>

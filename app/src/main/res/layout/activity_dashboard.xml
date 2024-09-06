@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_picture">
+
+
+    <!-- Dashboard Section -->
+    <LinearLayout
+        android:id="@+id/dashboard_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/Bluelight1">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="77dp"
+            android:layout_height="75dp"
+            android:src="@drawable/book_icon"
+            android:background="@color/semi_transparent_bluish"/>
+
+        <TextView
+            android:id="@+id/dashboard_title"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Dashboard"
+            android:layout_marginTop="20dp"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+    <!-- Middle section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:background="@color/Bluelight1">
+
+        <ImageButton
+            android:id="@+id/profile_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="Profile" />
+
+        <ImageButton
+            android:id="@+id/main_page_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_main_page"
+            android:contentDescription="Main Page" />
+
+        <ImageButton
+            android:id="@+id/tracking_books_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tracking_books"
+            android:contentDescription="Tracking Books" />
+
+        <ImageButton
+            android:id="@+id/buying_books_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_buying_books"
+            android:contentDescription="Buying Books" />
+
+        <ImageButton
+            android:id="@+id/exit_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_exit"
+            android:contentDescription="Exit" />
+    </LinearLayout>
+</RelativeLayout>
